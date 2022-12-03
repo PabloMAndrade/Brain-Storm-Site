@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/services.css">
+    <script src="https://kit.fontawesome.com/b8d4462457.js" crossorigin="anonymous"></script>
+    <title>Brain Storm</title>
+</head>
+<body>
+    <header>
+        <h1>Brain Storm</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li class="active"><a href="./landingPage.html">Início</a></li>
+                <li><a href="./services.html">Serviços</a></li>
+                <li><a href="./ourportfolio.html">Portfólio</a></li>
+                <li><a href="./aboutus.html">Sobre nós</a></li>
+                <li><a href="/">Contato</a></li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <div class="container">
+        <h1>Nossos Serviços</h1>
+
+        <div class="row">
+
+            <div class="service"><a href="/">
+                <i class="fa-solid fa-chess-queen"></i>
+                <h2>Estratégias para Social Media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </a></div>
+
+            <div class="service"><a href="/">
+                <i class="fa-brands fa-instagram"></i>
+                <h2>Social Media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </a></div>
+
+            <div class="service"><a href="/">
+                <i class="fa-solid fa-globe"></i>
+                <h2>Criação de Websites</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </a></div>
+
+            <div class="service"><a href="/">
+                <i class="fa-solid fa-chart-pie"></i>
+                <h2>Análise de Dados</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </a></div>
+
+            <div class="service"><a href="/">
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Tráfego Pago</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </a></div>
+
+            <div class="service"><a href="/">
+                <i class="fa-solid fa-masks-theater"></i>
+                <h2>Identidade Visual</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </a></div>
+
+        </div>
+    </div>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+</body>
+</html>
