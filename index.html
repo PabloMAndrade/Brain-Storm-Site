@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/landingPage.css">
+    <title>Brain Storm</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Brain Storm</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li class="active"><a href="./landingPage.html">Início</a></li>
+                <li><a href="./services.html">Serviços</a></li>
+                <li><a href="./ourportfolio.html">Portfólio</a></li>
+                <li><a href="./aboutus.html">Sobre nós</a></li>
+                <li><a href="/">Contato</a></li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Tráfego Pago</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+                Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="/imgs/visualization.svg" alt="Landing image">
+        </section>
+
+    </section>
+
+    <section class="main2">
+        <section class="left2">
+            <img src="/imgs/socialmedia.svg" width="600px" alt="Landing image">
+        </section>
+
+        <section class="right2">
+            <p class="title">Redes Sociais</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+                Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+    </section>
+
+    <!--Inicio da "2 Parte" do código onde o foco é replicar TEXT / IMG Content e IMG / TEXT Content-->
+
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Criação de Websites</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+                Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+        <section class="right">
+            <img src="/imgs/experienceDesign.svg" alt="Landing image">
+        </section>
+
+    </section>
+
+    <section class="main2">
+        <section class="left2">
+            <img src="/imgs/projections.svg" width="600px" alt="Landing image">
+        </section>
+
+        <section class="right2">
+            <p class="title">Análise de Dados</p>
+            <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+                Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+            <button class="cta">Learn More</button>
+        </section>
+
+    </section>
+
+<!--Inicio da "3 Parte" do código onde o foco é replicar TEXT / IMG Content e IMG / TEXT Content-->
+
+
+<section class="main">
+
+    <section class="left">
+        <p class="title">Estratégias para Redes Sociais</p>
+        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+            Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+        <button class="cta">Learn More</button>
+    </section>
+
+    <section class="right">
+        <img src="/imgs/strategesforsocialmedia.svg" alt="Landing image">
+    </section>
+
+</section>
+
+<section class="main2">
+    <section class="left2">
+        <img src="/imgs/identidadevisual.svg" width="400px" alt="Landing image">
+    </section>
+
+    <section class="right2">
+        <p class="title">Identidade Visual</p>
+        <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+            Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+        <button class="cta">Learn More</button>
+    </section>
+
+</section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+</body>
+</html>
