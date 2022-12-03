@@ -30,53 +30,34 @@
         </section>
     </header>
 
-    <div class="section">
-		<div class="container">
-			<div class="content-section">
-				<div class="title">
-					<h1>Sobre nós</h1>
-				</div>
-				<div class="content">
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
-					<div class="button">
-						<a href="">Leia Mais</a>
-					</div>
-				</div>
-				<div class="social">
-					<a href=""><i class="fab fa-facebook-f"></i></a>
-					<a href=""><i class="fab fa-twitter"></i></a>
-					<a href=""><i class="fab fa-instagram"></i></a>
-				</div>
-			</div>
-			<div class="image-section">
-				<img src="./imgs/progressData.svg">
-			</div>
+    <section class="main">
 
+      <section class="left">
+          <p class="title">Porque nos contratar?</p>
+          <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+              Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+          <button class="cta">Learn More</button>
+      </section>
 
-            <div class="content-section2">
-				<div class="title">
-					<h1>Porque nos contratar?</h1>
-				</div>
-				<div class="content">
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
-					<div class="button">
-						<a href="">Leia Mais</a>
-					</div>
-				</div>
-			</div>
-			<div class="image-section">
-				<img src="./imgs/progressData.svg">
-			</div>
-		</div>
-	</div>
+      <section class="right">
+          <img src="logo3.jpg" alt="Landing image">
+      </section>
+
+  </section>
+
+  <section class="main2">
+      <section class="left2">
+          <img src="/imgs/socialmedia.svg" width="600px" alt="Landing image">
+      </section>
+
+      <section class="right2">
+          <p class="title">Vá além conosco !</p>
+          <p class="msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil rerum itaque quisquam!
+              Natus repudiandae nesciunt tempora odio amet. Saepe?</p>
+          <button class="cta">Learn More</button>
+      </section>
+
+  </section>
 
     <!--Começo do Our Team Code-->
 
@@ -108,5 +89,12 @@
         </div>
       </div>
 
+      <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
 </body>
 </html>
